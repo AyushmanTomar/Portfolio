@@ -1,0 +1,155 @@
+:root{
+    --body-color:white;
+    --opposite:black;
+}
+body.dark{
+    --body-color:black;
+    --opposite:white;
+}
+
+.soon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.typedText{
+    position: relative;
+    margin-top: 40%;
+    font-size: 30px;
+}
+#hire-box{
+    padding: 9em;
+    padding-top: 8em;
+}
+.featured-image-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-content: center;
+    min-height: 80vh;
+    width: 50%;
+}
+.image-contact{
+    height: 500px;
+    width: 450px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+.nav-name{
+    color: rgb(192, 166, 49);
+}
+.featured-name{
+    margin-top: 0px;
+}
+input{
+    width: 90%;
+    border-radius: 30px;
+    border: 0px;
+    background-color: rgb(204,233,255);
+    height: 40px;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 0px 30px;
+    transition: .3s;
+
+}
+input:hover{
+    background-color:rgb(204,233,255,0.5) ;
+}
+textarea{
+    width: 90%;
+    border-radius: 30px;
+    margin: 10px;
+    margin-left: 0px;
+    border: 0px;
+    background-color: rgb(204,233,255);
+    padding: 10px 30px;
+    transition: .3s;
+}
+textarea:hover{
+    background: rgb(204,233,255,0.5);
+}
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+/* textarea:active{
+    border: 2px solid blue ;
+} */
+label{
+    font-size: 13px;
+    color: var(--opposite);
+}
+.featured-text-info p{
+    font-size: 15px;
+}
+.submit{
+    background:rgb(192, 166, 49);
+    width: 30%;
+    color: aliceblue;
+    font-size: 15px;
+    transition: .3s;
+    cursor: pointer;
+    padding: 0px 0px;
+}
+.submit:hover{
+    transform: scale(1.1);
+    background: rgb(192, 166, 49);
+}
+.featured-text-form{
+    position: relative;
+    display: flex ;
+    justify-content:flex-start;
+    align-content: center;
+    min-height: 80vh;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+}
+.featured-text-info{
+    width: 90%;
+}
+@media only screen and (max-width:900px) {
+    .featured-image{
+        margin-top: 300px;
+        order: 1;
+        width: 200px;
+        height: 200px;
+    }
+    .featured-text-form{
+        margin-top: 200px;
+        order: 2;
+        width: 100%;
+        padding-left: 0px;
+    }
+    #hire-box{
+        padding: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-submit{
+        width: 100%;
+    }
+    .submit{
+        margin: 0px;
+        padding: 0px 0px;
+    }
+    textarea{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    #footer{
+        margin-top: 150px;
+    }
+    .nav_menu_list{
+        align-items: center;
+        justify-content: center;
+    }
+        
+}

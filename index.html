@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushman Tomar's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images\fevicon.ico">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                    <P class="nav-name">Ayushman</P>
+                    <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Work</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#footer" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-button">
+                <a href="./resume_ayushman.pdf" download><button class="btn">Download CV<i class="uil uil-file-download-alt"></i></button></a>
+            </div>
+
+            
+
+            <div class="nav-menu-btn" onclick="myMenuFunction()">
+                <i class="uil uil-bars"></i>
+            </div>
+
+            <!-- /*dark mode*/ -->
+
+        </nav>
+
+
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Ayushman Tomar</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm a <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <!-- i have to enter myskills in this para graph -->
+                        <p>Ambitious and driven Computer Science student with a strong foundation in coding, web development, and app development, complemented by hands-on experience in multiple programming languages and various frameworks.</p>
+                    </div>
+                    <div class="fetured-text-button">
+                        <button class="btn blue-btn" onclick="hireMe()">Hire  Me</button>
+                        <a href="./resume_ayushman.pdf" download><button class="btn " id="downloadResume" onclick="downloadAlert()">Download Resume<i class="uil uil-file-download-alt"></i></button></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon" id="linkedin"> <i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon" id="instagram"> <i class="uil uil-instagram"></i></div>
+                        <div class="icon" id="github"> <i class="uil uil-github-alt"></i></div>
+                        <div class="icon" id="mail"> <i class="uil uil-envelope"></i></div>
+                    </div>
+                </div>
+
+
+                <div class="featured-image">
+                    <div class="image">
+                        <!-- my image  -->
+                        <img src="images\picSmooth.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#projects" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h2>My Introduction</h2>
+                            <p>As an aspiring Computer Science engineer My passion for technology has led me to explore alot of technologies.I pride myself on being a rapid learner with an insatiable curiosity for emerging technologies. My adaptability allows me to transition seamlessly from traditional platforms to cutting-edge innovations. </p>
+                            <p style="margin-top: 8px;">Complementing my technical expertise are my strong communication skills and inherent leadership qualities, which I continuously hone to make a significant impact in the field of technology.
+                                </p>
+                            <div class="about-btn">
+                                <a href="./resume_ayushman.pdf" download><button class="btn">Download CV<i class="uil uil-import"></i> </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="skills">
+                        <div class="skill-box">
+                            <div class="skill-header">
+                                <h3>Languages</h3>
+                            </div>
+                            <div class="skill-list">
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>C/C++</span>
+                                <span>Data Structures and Algorithms</span>
+                                <span>Design and Analysis of complex Data Algorithms</span>
+                                <span>HTML & CSS</span>
+                                <span>JavaScript</span>
+                                <span>React-Js</span>
+                                <span>Firebase</span>
+                                <span>learning ML/DL</span>
+                                <span>Machine Learing Models</span>
+                                <span>Scikit-learn</span>
+                                <span>Keras</span>
+                                <span>Pandas</span>
+                                <span>Numpy</span>
+                                <span>sheetDb</span>
+                                <span>Android Studio</span>
+                            </div> 
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill-box">
+                            <div class="skill-header">
+                                <h3>Behavioral Skills</h3>
+                            </div> 
+                            <div class="skill-list">
+                                <span>Strong Communication Skills</span>
+                                <span>Strong Mathematical Skills</span>
+                                <span>Problem Solving</span>
+                                <span>Code Review</span>
+                                <span>Teamwork</span>
+                                <span>Team Management</span>
+                                <span>Team Leader</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="top-header">
+                    <h1>Experience</h1>
+                </div>
+                <div class="experience-box">
+                    <div class="right">
+                        <div class="heading" ><h1 style="margin-bottom: 8px;"><span style="color: rgb(68, 68, 68);">Founder of </span>TIFFIN: <span>Your AI Powered Meal Solution</span></h1>
+                            <p>At Tiffin, we’re revolutionizing the way you think about food. Our cutting-edge food tech company is dedicated to crafting personalized nutrition that aligns seamlessly with your unique health goals and lifestyle preferences. Harnessing the power of artificial intelligence, Tiffin offers a trio of meticulously designed meal plans: the Basic, Standard, and our flagship Premium AI Plan.</p>
+                                
+                              <p>Our Premium AI Plan stands at the forefront of dietary innovation, providing bespoke meal solutions that adapt to your individual conditions and specifications. Whether you’re looking to manage your weight, cater to specific dietary needs, or simply enjoy wholesome, balanced meals, Tiffin’s AI-driven approach ensures that your diet is as unique as you are.</p>
+                                
+                                <p>With Tiffin’s subscription model, savor the convenience of having your tailored diet charts delivered directly to your home. Say goodbye to the daily hassle of meal planning and ordering—our subscription service ensures that you have consistent access to nutritious meals crafted just for you.</p>
+                                
+                               <button class="btn" onclick="openTiffin()">Website    <i class="uil uil-arrow-up-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <img src="full logo_square.png" alt="brand">
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <div class="top-header">
+                   <h1>Projects</h1> 
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fa-brands fa-react" style="font-size: 40px;"></i>
+                        <h2>FlowTalk</h2>
+                        <label style="text-align: center; padding: 0px 20px;">Completely working Social Media app using React-Js and Firebase </label>
+
+                        <div class="optifit-web-btn">
+                            <button class="btn" onclick="openFlowtalk()">Direct to FlowTalk<i class="uil uil-arrow-up-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-brain" style="font-size: 45px;"></i>
+                        <h2>SpamHam</h2>
+                        <label style="text-align: center; padding: 0px 20px;">SpamHam is a AI model to filter spam Messages, built using scikit-learn.</label>
+
+                        <div class="optifit-web-btn">
+                            <button class="btn" onclick="openSpamHam()">Direct to SpamHam<i class="uil uil-arrow-up-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-brands fa-python" style="font-size: 40px;"></i>
+                        <h2>WingBird</h2>
+                        <label style="text-align: center; padding: 0px 20px;">Fun game build in Python that will test your patience</label>
+
+                        <div class="optifit-web-btn">
+                            <button class="btn" onclick="openBirdWing()">Repository Link<i class="uil uil-github"></i></button>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-html5-alt" style="font-size: 40px;"></i>
+                        <h2>Optifit Website FrontEnd</h2>
+                        <label>Frontend development of Optifit using React</label>
+                        <div class="optifit-web-btn">
+                            <button class="btn" onclick="openOptifitWeb()">Direct to Optifit<i class="uil uil-arrow-up-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt" style="font-size: 40px;"></i>
+                        <h2>Optifit Application</h2>
+                        <label>Fittness app to count calories</label>
+                        <div class="optifit-btn">
+                            <a href="./optifit.apk" download><button class="btn">Download App<i class="uil uil-android"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-game-structure" style="font-size: 40px;"></i>
+                        <h2>Odd/Even game in Java</h2>
+                        <label>Hand Cricket v/s Computer</label>
+                        <div class="odd_even-git-btn">
+                            <button class="btn" onclick="openOddEvenGit()">Repository Link<i class="uil uil-github"></i></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="section" id="education">
+                <div class="top-header">
+                    <h1>My Education</h1> 
+                </div>
+                <div class="education-container">
+                    <div class="education-box">
+                        <i class="uil uil-book-alt" style="font-size: 40px;" id="school-icon"></i>
+                        <h2>High-School Diploma</h2>
+                        <label><pre><b>School:</b>   City Montessori School</pre></label>
+                        <label><pre><b>City:</b>        Gomti Nagar, Lucknow</pre></label>
+                        <label><pre><b>Year:</b>       2009-2021</pre></label>
+                        <div class="education-list">
+                                <span>Scored 95.8% marks in Metrix.</span><br>
+                                <span>My Main Subjects were Computer Science, Maths, Physics, Chemisty</span>
+                                <span>Scored 97.5% marks in Intermediate.</span>
+                        </div>
+                    </div>
+                    <div class="education-box">
+                        <i class="uil uil-graduation-cap" style="font-size: 40px ;"></i>
+                        <h2>Graduation</h2>
+                        <label><pre><b>College:</b>     Vellore Institute of Technology</pre></label>
+                        <label><pre><b>City:</b>           Vellore</pre></label>
+                        <label><pre><b>Year:</b>          2022-2026</pre></label>
+                        <label><pre><b>Course:</b>      B-Tech</pre></label>
+                        <label><pre><b>Branch:</b>      Computer Science Engineering</pre></label>
+                        <div class="education-list">
+                            <span>Currently Pursuing my Engineering Degree</span>
+                            <span>Currently having a CGPA of ....</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer" id="footer">
+                <div class="footer-container">
+                    
+                        <div class="nav-logo">
+                            <P class="nav-name2">Ayushman Tomar</P>
+                        </div>
+                        <h1 id="cont" class="cnt">Contact Me</h1>
+                        <div class="social_icons2">
+                            <div class="icon" id="linkedin1"> <i class="uil uil-linkedin-alt"></i></div>
+                            <div class="icon" id="instagram1"> <i class="uil uil-instagram"></i></div>
+                            <div class="icon" id="github1"> <i class="uil uil-github-alt"></i></div>
+                            <div class="icon" id="mail1"> <i class="uil uil-envelope"></i></div>
+                        </div>
+                        <!-- <div class="social_icons_name">
+                            <div>linkedin</div>
+                            <div>Instagram</div>
+                            <div>gitHub</div>
+                            <div>Mail</div>
+                        </div> -->
+                        <span class="mob" style="margin-top: 30px;"><a href="tel:+918318388796">Mobile: +91 8318388796</a></span>
+                    
+                    
+                    <span class="rights">@ all rights reserved Ayushman Tomar</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js\main.js"></script>
+</body>
+</html>
